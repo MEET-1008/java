@@ -11,6 +11,6 @@ class p4_factorial_number {
     System.out.printf("enter the number :- ");
     Scanner input = new Scanner(System.in);
     int num = input.nextInt();
-    System.out.println("Factorial of " + num + " is " + factorial(5) + "\n");
+    System.out.println("Factorial of " + num + " is " + factorial(num) + "\n");
   }
 }

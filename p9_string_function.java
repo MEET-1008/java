@@ -9,6 +9,7 @@ class p9_string_function {
         
         // string lowercase to uppercass
         System.out.println(first.toUpperCase());
+        System.out.println(first.toCharArray());
 
         // find the string length 
         System.out.println("first string length is :- "+first.length());
