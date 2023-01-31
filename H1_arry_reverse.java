@@ -1,22 +1,5 @@
 import java.util.*;
 
-class reverseArray {
-
-  void reverse(int a[], int n) {
-    int[] b = new int[n];
-    int j = n;
-    for (int i = 0; i < n; i++) {
-      b[j - 1] = a[i];
-      j = j - 1;
-    }
-    // printing the reversed array
-    System.out.printf("Reversed array is:");
-    for (int k = 0; k < n; k++) {
-      System.out.printf(b[k] + " ");
-    }
-  }
-}
-
 class H1_arry_reverse {
 
   public static void main(String args[]) {
@@ -28,16 +11,27 @@ class H1_arry_reverse {
     int a = sc.nextInt();
     int b = sc.nextInt();
 
-    int arr2[] = new int[n];
-    int count=0;
+    int arr2[] = new int[10];
 
+   
     for (int i = a; i <= b; i++) {
       arr2[i] = arr[i];
-      count++;
+     
     }
-    System.out.println(arr2.length);
-    System.out.println(count);
-    reverseArray ob1 = new reverseArray();
-    ob1.reverse(arr2, arr2.length);
+
+    int start = 0;
+    for (int i = 0; i < n; i++) {
+      if (arr[i] == a) {
+        break;
+      } else {
+        start++;
+      }
+    }
+
+    for (int i = 9; i >= start ; i--) {
+     System.out.print( arr2[i] + " "); 
+     
+    }
+
   }
 }
