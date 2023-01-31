@@ -2,7 +2,7 @@ import java.util.*;
 
 class p9_string_function {
     public static void main (String args[]){
-        String first = "meet";
+        String first = "indus";
 
         // replace function i string 
         System.out.println(first.replace('m','M'));
@@ -15,6 +15,6 @@ class p9_string_function {
         System.out.println("first string length is :- "+first.length());
 
         // string concat 
-        System.out.println("vaghasiya ".concat(first));
+        System.out.println("university ".concat(first));
     }
 }
