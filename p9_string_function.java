@@ -5,11 +5,10 @@ class p9_string_function {
         String first = "indus";
 
         // replace function i string 
-        System.out.println(first.replace('m','M'));
+        System.out.println(first.replace('i','I'));
         
         // string lowercase to uppercass
         System.out.println(first.toUpperCase());
-        System.out.println(first.toCharArray());
 
         // find the string length 
         System.out.println("first string length is :- "+first.length());
