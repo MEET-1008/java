@@ -54,7 +54,7 @@ class salariedEmoloyee extends employee {
   }
 }
 
-class p14 {
+class p14_super_HRA {
 
   public static void main(String[] args) {
     salariedEmoloyee Meet = new salariedEmoloyee();

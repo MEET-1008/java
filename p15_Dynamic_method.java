@@ -13,7 +13,7 @@ import java.util.*;
     }
 }
 
-public class p15 {
+public class p15_Dynamic_method {
     public static void main(String[] args) {
         A3 a = new B3();
         a.hello("Dynamic Method Dispatch");
