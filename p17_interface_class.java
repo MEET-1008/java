@@ -50,7 +50,7 @@ class Circle extends Shape implements Shape2D {
   }
 }
 
-class p17 {
+class p17_interface_class  {
 
   public static void main(String[] args) {
     Circle c = new Circle(new Point3D(0, 0, 0), 5);

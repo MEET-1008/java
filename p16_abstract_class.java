@@ -38,7 +38,7 @@ class Square extends shape {
   }
 }
 
-class p16 {
+class p16_abstract_class {
 
   public static void main(String args[]) {
     shape ob1 = new circle();

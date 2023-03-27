@@ -53,7 +53,7 @@ class salariedEmoloyee extends employee {
   }
 }
 
-class p18_package {
+class p18_package_1 {
 
   public static void main(String[] args) {
     salariedEmoloyee Meet = new salariedEmoloyee();
