@@ -1,6 +1,6 @@
 import java.util.*;
 
-class p8_find_arry_avg {
+class p08_find_arry_avg {
 
   public static void main(String args[]) {
     Scanner sc = new Scanner(System.in);

@@ -1,6 +1,6 @@
 import java.util.*;
 
-class p7_matrix_adition {
+class p07_matrix_adition {
 
   public static void main(String args[]) {
     int row = 2, colum = 2, i, j;

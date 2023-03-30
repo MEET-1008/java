@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class p3_prime_number {
+public class p03_prime_number {
 
   public static void main(String[] args) {
     int i = 0;

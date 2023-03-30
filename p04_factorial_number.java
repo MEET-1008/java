@@ -1,6 +1,6 @@
 import java.util.*;
 
-class p4_factorial_number {
+class p04_factorial_number {
 
   static int factorial(int n) {
     if (n == 0) return 1;

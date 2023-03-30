@@ -1,6 +1,6 @@
 import java.util.*;
 
-class p9_string_function {
+class p09_string_function {
     public static void main (String args[]){
         String first = "indus";
 

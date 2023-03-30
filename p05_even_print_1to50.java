@@ -1,6 +1,6 @@
 import java.util.*;
 
-class p5_even_print_1to50 
+class p05_even_print_1to50 
 {
     public static void main(String[] args)
     {

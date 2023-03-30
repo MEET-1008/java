@@ -1,6 +1,6 @@
 import java.util.*;
 
-class odd_even {
+class p02_odd_even {
 
   public static void main(String[] args) {
     int a;

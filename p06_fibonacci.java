@@ -1,6 +1,6 @@
 import java.util.*;
 
- class p6_fibonacci {
+ class p06_fibonacci {
 
   public static void main(String[] args) {
     int n1 = 0;
