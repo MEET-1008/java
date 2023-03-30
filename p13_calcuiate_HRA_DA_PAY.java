@@ -20,8 +20,8 @@ class print_emp_list {
 class p13_calcuiate_HRA_DA_PAY {
 
   public static void main(String[] args) {
-    print_emp_list Meet = new print_emp_list(20231520, "Meet", "web developer", 60550);
-    print_emp_list Nirav = new print_emp_list(20231521, "NIrav", "DBA", 55890);
-    print_emp_list Jay = new print_emp_list(20231522, "Jay", "graphic designer", 50980);
+    print_emp_list Meet = new print_emp_list(20231520, "kanu", "web developer", 60550);
+    print_emp_list Nirav = new print_emp_list(20231521, "manu", "DBA", 55890);
+    print_emp_list Jay = new print_emp_list(20231522, "raju", "graphic designer", 50980);
   }
 }

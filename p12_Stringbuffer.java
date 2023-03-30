@@ -3,8 +3,8 @@ import java.util.*;
 public class p12_Stringbuffer {
 
   public static void main(String[] args) {
-    StringBuffer sc = new StringBuffer("meet");
-    sc.append("Vaghasiya");
+    StringBuffer sc = new StringBuffer("indus");
+    sc.append("university");
     System.out.println("append: " + sc);
     sc.delete(1, 4);
     System.out.println(" delete: " + sc);

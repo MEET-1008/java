@@ -32,7 +32,7 @@ class person {
 class p11_constructor {
 
   public static void main(String args[]) {
-    person meet = new person("meet", 23, 23000);
+    person meet = new person("raju", 23, 23000);
     person ob2 = new person();
   }
 }
