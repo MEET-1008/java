@@ -1,7 +1,5 @@
 import java.util.*;            // using by Extends Thread 
-
 class A extends Thread {
-
   public void run() {
     try {
       for (int i = 1; i <= 5; i++) {
@@ -14,7 +12,6 @@ class A extends Thread {
 }
 
 class E12_1_thread {
-
   public static void main(String args[]) throws Exception {
     A T = new A();
     T.start();

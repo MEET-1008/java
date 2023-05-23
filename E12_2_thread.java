@@ -1,7 +1,5 @@
 import java.util.*;                 // using Implement Runnable 
-
 class A implements Runnable {
-
   public void run() {
     try {
       for (int i = 1; i <= 5; i++) {
@@ -13,7 +11,6 @@ class A implements Runnable {
 }
 
 class E12_2_thread {
-
   public static void main(String args[]) throws Exception {
     A T = new A();
     Thread T1 = new Thread(T);

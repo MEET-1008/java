@@ -1,6 +1,6 @@
 import java.io.*;
 
-class E10_FileInputStream {
+class E10_1_FileInputStream {
 
   public static void main(String args[]) throws Exception {
     FileInputStream fis = new FileInputStream("A1.txt");
